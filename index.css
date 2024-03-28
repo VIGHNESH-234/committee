@@ -1,0 +1,172 @@
+
+.navbar{
+    height: 60px;
+    border:2px solid black;
+    display: flex;
+   
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items:center ;
+    
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    background-image: url(gdsc.logo.png);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.joinme{
+    height: 50px;
+    width: 100px;
+    color: aliceblue;
+    background-color:lightblue;
+    font-weight: 900;
+    border-radius: 15px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.image{
+    height:600px;
+    background-image: url(banner.png);
+    background-size: cover;
+}
+.SEARCH{
+    position: relative;
+    left: 400px;
+    top: 270px;
+    height:20px;
+}
+.he{
+    position: relative;
+    left: 400px;
+    top: 270px;
+}
+.last{
+    display: flex;
+    height:500px;
+    background-color:grey;
+    position: relative;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    top:50px;
+}
+.box-1{
+    height:400px;
+    width:300px;
+    background-color: #f5f6f6;
+    text-align: center;
+}
+.box-2{
+    height:400px;
+    width:300px;
+    background-color: #f5f6f6;
+    text-align: center;
+}
+
+.box-3{
+    height:400px;
+    width:300px;
+    background-color: #f5f6f6;
+    text-align: center;
+}
+
+.box-4{
+    height:400px;
+    width:300px;
+    background-color: #f5f6f6;
+   text-align: center;
+}
+.EVENT{
+    background-color: #222f3d;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    font-weight: 700;
+    font-weight: bolder;
+    position: relative;
+    top: 60px;
+}
+.Amazon-item-1{
+    position: relative;
+    margin-left:20px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+    background-image: url(e1.jpeg);
+    background-size:cover;
+}
+.Amazon-item-2{
+    position: relative;
+    margin-left:20px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+    background-image: url(e2.jpeg);
+    background-size:cover;
+}
+.Amazon-item-3{
+    position: relative;
+    margin-left:20px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+    background-image: url(e3.jpeg);
+    background-size:cover;
+}
+.Amazon-item-4{
+    position: relative;
+    margin-left:20px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+    background-image: url(e4.jpeg);
+    background-size:cover;
+}
+.about-section {
+    background-color:black;
+    color: azure;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 10rem;
+    position: relative;
+    top:40px;
+  }
+  .footer{
+    height: 100px;
+    width:10000px;
+    background-color:grey;
+    display: flex;
+    color: #f5f6f6;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
+
+.link{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    border-right:5px solid white;
+    align-items: center;
+}
+.link i{
+    font-size:xx-large;
+
+}
+.contact{
+    border-right:5px solid white;
+}
+.eee{
+    font-weight: 600;
+    text-align: center;
+}

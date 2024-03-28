@@ -1,0 +1,104 @@
+body{
+  background-color: black;
+}
+
+.card-body{
+  background-color: black;
+  color: rgb(23, 238, 84);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  outline: rgb(30, 27, 207);
+}
+.events {
+  margin-top: -30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+/* Style the cards */
+.card {
+  width: 800px;
+  border: 1px solid #353d36;
+  border-radius: 10px;
+  
+  box-shadow: 0 8px 16px rgb(56, 51, 51);
+}
+.events1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.btn{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+
+.custom-carousel img {
+  height: 200%;
+  /* Ensure images fill the carousel item height */
+  width: auto;
+  /* Allow images to adjust their width proportionally */
+}
+.badge{
+  margin-top: 50px;
+  
+}
+.committee {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  margin-right: -20pxpx;
+}
+.card {
+  width: 800px;
+  border: 1px solid #353d36;
+  border-radius: 100px;
+  
+  box-shadow: 0 8px 16px rgb(56, 51, 51);
+}
+.about-section {
+  background-color: #3b4d60;
+  color: azure;
+  padding: 25px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 10rem;
+}
+.custom-carousel .carousel-item {
+  height: 600px;
+  border: 2px solid #ccc; 
+  border-radius: 5px;
+  border-bottom: 7px solid;
+  /* Adjust the height as needed */
+  /* Ensure with remains responsive */
+}
+
+.custom-carousel img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Fit the image proportionally within its container */
+    object-position: center;
+  /* Allow images to adjust their width proportionally */
+}
+.events2 {
+  margin-top: -30px;
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 75px;
+}
+
+.events2 img{
+  border: 5px solid whitesmoke;
+}
+
+.h3{
+  font-weight: 800px;
+}
+.quote{
+  display: flex;
+}

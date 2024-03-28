@@ -1,0 +1,146 @@
+.custom-carousel .carousel-item {
+    height: 600px;
+    /* Adjust the height as needed */
+    /* Ensure with remains responsive */
+}
+
+.custom-carousel img {
+    height: 100%;
+  width: 100%;
+  object-fit: cover; /* Fit the image proportionally within its container */
+    object-position:
+    /* Allow images to adjust their width proportionally */
+}
+
+.card-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 5px;
+    flex: 1 1 calc(18rem - 50%);
+    background-color: black;
+    outline: 2px solid greenyellow;
+}
+
+.card-body {
+    color: antiquewhite;
+}
+
+.about-section {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 50px;
+}
+
+.card-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* Adjust the gap between cards */
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 0 0 calc(50% - 20px);
+        /* Adjust the width of each card for smaller screens */
+        max-width: calc(50% - 20px);
+        /* Adjust the max-width of each card for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        flex: 0 0 calc(100% - 20px);
+        /* Adjust the width of each card for even smaller screens */
+        max-width: calc(100% - 20px);
+        /* Adjust the max-width of each card for even smaller screens */
+    }
+}
+
+body {
+    background-color: rgb(5, 0, 0);
+    /* Change text color to white for better readability */
+}
+
+
+/* Styles for navbar */
+
+.navbar {
+    background-color: #0c0c0c;
+    /* Change background color */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fefdfd;
+    /* Change text color */
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #18de1f;
+    /* Change text color on hover */
+}
+
+.navbar-toggler-icon {
+    background-color: #eddada;
+    /* Change color of the toggler icon */
+}
+
+.navbar-toggler {
+    border-color: #2aec0d;
+    /* Change color of the toggler border */
+}
+
+.navbar-toggler:hover {
+    border-color: #2aec0d;
+    /* Change color of the toggler border on hover */
+}
+
+.navbar {
+    background-color: #0c0c0c;
+}
+
+#contactUs {
+    background-color: #07090b;
+    padding: 40px;
+    border-radius: 40px;
+    margin-top: 11px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contactUs h2 {
+    color: #faf1f1;
+    text-align: center;
+}
+
+.contact-section .col-md-6 {
+    padding: 10px;
+}
+
+.contact-section h3 {
+    color: #f4efef;
+}
+
+.contact-section p {
+    color: #f8f2f2;
+    margin-bottom: 8px;
+}
+
+.aboutUs {
+    color: #333;
+    /* Change text color to dark gray */
+}

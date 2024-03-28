@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Committee Events</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .event {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .event:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .event h2 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .event p {
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        .event img {
+            max-width: 50%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .event button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .event button:hover {
+            background-color: #555;
+        }
+
+        .group1,
+        .group2 {
+            text-align: center;
+        }
+
+        .trigger {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Committee Events</h1>
+    </div>
+    <div class="container">
+        <div class="group1">
+            <h2>WORKSHOPS</h2>
+        </div>
+        <div class="event">
+            <img src="/Media/figma workshop.jpg" alt="Event 1">
+            <h2>Event 1 :- From Design to Code: Figma x Tailwind</h2>
+            <p>Date: March 05, 2022</p>
+            <p><strong>Description:</strong> UI/UX is carving out a niche for itself by assisting designers in
+                developing creative projects and improving styling
+                processes. With FIGMA, a powerful designing tool, and TAILWIND, a utility first CSS framework packed
+                with various
+                classes that can be composed to build any design, directly in the markup serving to improve the styling
+                process, this
+                session is going to be a great chance to enter the world of designing.</p>
+            <button onclick="register()">Register</button>
+        </div>
+        <div class="event">
+            <img src="/Media/JAVASCRIPT.JPG" alt="Event 2">
+            <h2>Event 2 : Javascript</h2>
+            <p>Date: August 20, 2024</p>
+            <p><strong>Description:</strong>Javascript is one of the core technologies of the world wide web, and is
+                used in 98% of websites. The language is used
+                vastly to create and develop interactive websites, apps and even browser games!.</p>
+            <button onclick="register()">Register</button>
+        </div>
+        <div class="event">
+            <img src="/Media/React.js.jpg" alt="Event 3">
+            <h2>Event 3 : React JS with Firebase </h2>
+            <p>Date: March 11&12, 2024</p>
+            <p><strong>Description:</strong> Two of the crucial technologies in web development, React.js and Firebase
+                which provide developers with powerful tools
+                and services to build high-quality and scalable applications. ReactJS is a JavaScript library for
+                building user
+                interfaces, while Firebase is a platform backend-as-a-service platform.</p>
+            <button onclick="register()">Register</button>
+        </div>
+        <div class="event">
+            <img src="/Media/Next_JS.jpg" alt="Event 3">
+            <h2>Event 4 : Next JS with Prisma</h2>
+            <p>Date: March 25, 2024</p>
+            <p><strong>Description:</strong> Next.js is a popular React-based framework for building server-side
+                rendered web applications, while Prisma is a modern database toolkit for building GraphQL APIs.
+                Together, they provide a powerful and efficient stack for building fast, scalable, and reliable web
+                applications.</p>
+            <button onclick="register()">Register</button>
+        </div>
+        <div class="group2">
+            <h2>CODER'S CLUB</h2>
+        </div>
+        <div class="event">
+            <img src="/Media/C_O_S1.jpg" alt="Event 3">
+            <h2>Event 1 : Coder of the Semester </h2>
+            <p>Date: August 31, 2023</p>
+            <p><strong>Description:</strong>Programming isn't about what you know but what you can figure out. This
+                competition typically requires you to solve challenging problems within a limited time frame. So be
+                ready to showcase your coding skills and don't back up to climb up the leaderboard as winning prize
+                money is waiting for the top scorer on the board. </p>
+            <button onclick="register()">Register</button>
+        </div>
+        <div class="event">
+            <img src="/Media/C_O_S2.jpg" alt="Event 3">
+            <h2>Event 2 : Coder of the Semester</h2>
+            <p>Date: March 23, 2023</p>
+            <p><strong>Description:</strong> Programming isn't about what you know but what you can figure out. This
+                competition typically requires you to solve challenging problems within a limited time frame. So be
+                ready to showcase your coding skills and don't back up to climb up the leaderboard as winning prize
+                money is waiting for the top scorer on the board. </p>
+            <button onclick="register()">Register</button>
+        </div>
+        <div class="group2">
+            <h2>
+                <div class="group2">
+                    <h2>COLLABORATION</h2>
+                </div>
+            </h2>
+        </div>
+        <div class="event">
+            <img src="/Media/UI-UX.jpg" alt="Event 3">
+            <h2>Event 1 : UI/UX</h2>
+            <p>Date: February 06, 2024</p>
+            <p><strong>Description:</strong> This is an astounding opportunity for all the students to understand user
+                interface
+                designing, right from the basics and have an insight on powerful UI/UX technologies. Here, the major
+                difference between what is UI and what is UX will be discussed and explained in detail along with the
+                various tools that will be used in the market. </p>
+            <button onclick="register()">Register</button>
+        </div>
+        <div class="event">
+            <img src="/Media/Web-dev_py.jpg" alt="Event 3">
+            <h2>Event 2 : Web development using Python</h2>
+            <p>Date: February 04, 2024</p>
+            <p><strong>Description: </strong>Web Development is an essential phase in programming building wherein various aspects of web
+                development such as Front End Development, Back End Development etc will be covered. These skills are
+                essential to scale up your resume and prepare you for tomorrow’s growing industry. This workshop is
+                going to be of great value for all the budding and enthusiastic web developers out there. </p>
+            <button onclick="register()">Register</button>
+        </div>
+        <!-- Add more events here -->
+    </div>
+
+    <div class="trigger">
+        <a href="/home_example.html"><button>Go Back</button></a>
+    </div>
+
+    <script>
+        function register() {
+            alert("You have successfully registered for this event!");
+        }
+    </script>
+</body>
+
+</html>
